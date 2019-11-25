@@ -51,12 +51,11 @@ public class LongestSubString {
      * @param s
      */
     public static int lengthOfLongestSubstring1(String s) {
-
         return 0;
     }
 
     public static void main(String[] args) {
-        int result = lengthOfLongestSubstring("aab");
+        int result = lengthOfLongestSubstring("abcabcbb");
         System.out.println(result);
     }
 }
